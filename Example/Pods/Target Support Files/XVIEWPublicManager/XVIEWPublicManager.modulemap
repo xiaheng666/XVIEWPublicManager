@@ -1,0 +1,6 @@
+framework module XVIEWPublicManager {
+  umbrella header "XVIEWPublicManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

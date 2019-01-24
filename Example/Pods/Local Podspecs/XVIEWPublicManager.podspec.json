@@ -1,0 +1,25 @@
+{
+  "name": "XVIEWPublicManager",
+  "version": "0.1.0",
+  "summary": "公共方法封装",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaheng666/XVIEWPublicManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaheng666": "key@xiaheng.net"
+  },
+  "source": {
+    "git": "git@github.com:xiaheng666/XVIEWPublicManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XVIEWPublicManager/Classes/*.h",
+  "ios": {
+    "vendored_libraries": "XVIEWPublicManager/Classes/*.a"
+  }
+}

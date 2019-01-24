@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		3E45C12AC3B0FCD8B19F779F /* Pods_XVIEWPublicManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XVIEWPublicManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		589AC1ADE02482CCD7330724 /* Pods-XVIEWPublicManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWPublicManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWPublicManager_Example/Pods-XVIEWPublicManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5FDC2DDD7E85E05331EBD07B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5FDC2DDD7E85E05331EBD07B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XVIEWPublicManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XVIEWPublicManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A49A793475E91D2ADCEF9990 /* Pods_XVIEWPublicManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XVIEWPublicManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A842A72B1F987A7D18CB220A /* XVIEWPublicManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XVIEWPublicManager.podspec; path = ../XVIEWPublicManager.podspec; sourceTree = "<group>"; };
-		C61924B3275B98DCBE9796DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A842A72B1F987A7D18CB220A /* XVIEWPublicManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XVIEWPublicManager.podspec; path = ../XVIEWPublicManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C61924B3275B98DCBE9796DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D12B072A74FFFB1AADC8D858 /* Pods-XVIEWPublicManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWPublicManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWPublicManager_Tests/Pods-XVIEWPublicManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EA2380FE7843C1F4F26F5168 /* Pods-XVIEWPublicManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWPublicManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWPublicManager_Example/Pods-XVIEWPublicManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				907C8193343406BA6E004AD0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -328,24 +327,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		907C8193343406BA6E004AD0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWPublicManager_Example/Pods-XVIEWPublicManager_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XVIEWPublicManager/XVIEWPublicManager.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XVIEWPublicManager.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWPublicManager_Example/Pods-XVIEWPublicManager_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

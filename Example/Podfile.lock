@@ -1,0 +1,16 @@
+PODS:
+  - XVIEWPublicManager (0.1.0)
+
+DEPENDENCIES:
+  - XVIEWPublicManager (from `../`)
+
+EXTERNAL SOURCES:
+  XVIEWPublicManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XVIEWPublicManager: f60f8a93ab19bcf6ba8e2fb5c32357260ea70cde
+
+PODFILE CHECKSUM: 3403ffe3d9cfd93918082694058d24ab87826d17
+
+COCOAPODS: 1.5.3

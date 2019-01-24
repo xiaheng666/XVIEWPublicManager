@@ -1,0 +1,1 @@
+../../../../../XVIEWPublicManager/Classes/XVIEWPublicManager.h
