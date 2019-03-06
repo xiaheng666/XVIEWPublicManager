@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWPublicManager'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '公共方法封装'
 
 # This description is used to generate tags and improve search results.

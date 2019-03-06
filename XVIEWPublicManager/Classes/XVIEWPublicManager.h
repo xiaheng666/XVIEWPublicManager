@@ -80,6 +80,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)goToWeb:(NSDictionary *)param;
 
 /**
+ *  跳转浏览器
+ @param       param currentVC:当前vc
+ data {url:网页地址}
+ */
+- (void)goToBrowser:(NSDictionary *)param;
+
+/**
  *  手机前后台变化
  @param       param callback:回调方法
  */
@@ -143,6 +150,12 @@ NS_ASSUME_NONNULL_BEGIN
  @param       param data {number:角标数量}
  */
 - (void)setBadge:(NSDictionary *)param;
+
+/**
+ *  打开闪光灯
+ @param       param data {}
+ */
+- (void)openSplash:(NSDictionary *)param;
 
 @end
 
