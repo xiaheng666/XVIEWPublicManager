@@ -1,5 +1,5 @@
 PODS:
-  - XVIEWPublicManager (0.1.2)
+  - XVIEWPublicManager (0.1.3)
 
 DEPENDENCIES:
   - XVIEWPublicManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XVIEWPublicManager: 439f6fec77ee3ebec2e9e5ac93c0d480ab97a537
+  XVIEWPublicManager: 882318c97ccf4db0ff21a2a7f4eaedc76e4ce34e
 
 PODFILE CHECKSUM: 3403ffe3d9cfd93918082694058d24ab87826d17
 

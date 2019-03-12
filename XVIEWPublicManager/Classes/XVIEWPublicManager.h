@@ -157,6 +157,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)openSplash:(NSDictionary *)param;
 
+/**
+ *  保存图片加水印
+ */
+- (void)saveImage:(NSDictionary *)param;
+
 @end
 
 NS_ASSUME_NONNULL_END
